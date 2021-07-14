@@ -27,6 +27,20 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+      <repository>
+        <id>nexus</id>
+        <name>releases nexus repository</name>
+        <url>http://ec2-13-235-81-199.ap-south-1.compute.amazonaws.com:8081/repository/Sample-DevOps-Release</url>
+      </repository>
+      
+      <snapshotRepository>
+        <id>nexus</id>
+        <name>snapshot nexus repository</name>
+        <url>http://ec2-13-235-81-199.ap-south-1.compute.amazonaws.com:8081/repository/Sample-DevOps-Snapshot</url>
+      </snapshotRepository>
+    
+  </distributionManagement>  
   <build>
     <finalName>JenkinsWar</finalName>
   </build>
