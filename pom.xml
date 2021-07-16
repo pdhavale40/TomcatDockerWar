@@ -22,7 +22,7 @@
   <properties>
     <sonar.host.url>http://54.151.224.80:9000</sonar.host.url>
     <sonar.login>admin</sonar.login>
-    <sonar.password>admin</sonar.pasword>
+    <sonar.password>admin</sonar.password>
   </properties>
   <dependencies>
     <dependency>
