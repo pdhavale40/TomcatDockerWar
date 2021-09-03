@@ -4,7 +4,7 @@ def mavenHome = tool name: "Maven3.8.1"
     
     stage('checkout code')
     {
-        git credentialsId: 'b5cbc4c0-6b60-4369-872b-2f62a5d494e9', url: 'https://github.com/MyGitHub2907/TomcatDockerWar.git'
+        git credentialsId: 'b5cbc4c0-6b60-4369-872b-2f62a5d494e9', url: 'https://github.com/pdhavale40/TomcatDockerWar.git'
         
     }
     stage('build')
@@ -31,6 +31,6 @@ def mavenHome = tool name: "Maven3.8.1"
         mail bcc: '', body: '''Build is success..
 
 Regards,
-Bikash Ranjan Barik''', cc: '', from: '', replyTo: '', subject: 'Build report', to: 'barikrbikash26@gmail.com'
+Priyanka Dhavale''', cc: '', from: '', replyTo: '', subject: 'Build report', to: 'pdhavale40@gmail.com'
     }
 }
