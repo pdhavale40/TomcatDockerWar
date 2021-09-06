@@ -36,13 +36,13 @@
       <repository>
         <id>nexus</id>
         <name>releases nexus repository</name>
-        <url>http://13.229.234.46:8081/repository/pipeline_job-releases</url>
+        <url>http://13.250.118.227:8081/repository/pipeline_job-releases</url>
       </repository>
       
       <snapshotRepository>
         <id>nexus</id>
         <name>snapshot nexus repository</name>
-        <url>http://13.229.234.46:8081/repository/pipeline_job-snapshot</url>
+        <url>http://13.250.118.227:8081/repository/pipeline_job-snapshot</url>
       </snapshotRepository>
     
   </distributionManagement>  
